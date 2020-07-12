@@ -1,4 +1,16 @@
 -------------------------------------------------------------------------------
 Test set: test.TestRunner
 -------------------------------------------------------------------------------
-Tests run: 0, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 5.19 sec
+Tests run: 1, Failures: 1, Errors: 0, Skipped: 0, Time elapsed: 10.832 sec <<< FAILURE!
+openBrowser(test.TestRunner)  Time elapsed: 0.275 sec  <<< FAILURE!
+java.lang.IllegalStateException: The driver is not executable: /Users/roshan/eclipse-workspace/mavensample/driver/chromedriver.exe
+	at com.google.common.base.Preconditions.checkState(Preconditions.java:585)
+	at org.openqa.selenium.remote.service.DriverService.checkExecutable(DriverService.java:150)
+	at org.openqa.selenium.remote.service.DriverService.findExecutable(DriverService.java:141)
+	at org.openqa.selenium.chrome.ChromeDriverService.access$000(ChromeDriverService.java:35)
+	at org.openqa.selenium.chrome.ChromeDriverService$Builder.findDefaultExecutable(ChromeDriverService.java:159)
+	at org.openqa.selenium.remote.service.DriverService$Builder.build(DriverService.java:355)
+	at org.openqa.selenium.chrome.ChromeDriverService.createDefaultService(ChromeDriverService.java:94)
+	at org.openqa.selenium.chrome.ChromeDriver.<init>(ChromeDriver.java:123)
+	at test.TestRunner.openBrowser(TestRunner.java:52)
+

@@ -1,35 +1,28 @@
 package stepdefinitions;
 
 import java.io.IOException;
-import java.util.List;
 import java.util.Map;
-
-import org.openqa.selenium.By;
-import org.openqa.selenium.WebDriver;
-import org.openqa.selenium.chrome.ChromeDriver;
 
 import cucumber.api.DataTable;
 import cucumber.api.java.en.Given;
-import cucumber.api.java.en.Then;
 import cucumber.api.java.en.When;
-import test.TestRunner;
 
 //import io.cucumber.datatable.DataTable;
 //import io.cucumber.java.en.Given;
 //import io.cucumber.java.en.Then;
 //import io.cucumber.java.en.When;
 
-public class TestcaseStepDefinition extends TestRunner{
+public class TestcaseStepDefinition{
 
-	Drivernstcac d;
+	//Drivernstcac d;
 //WebDriver driver;
 		@Given("I want to write a step with precondition")
 		public void i_want_to_write_a_step_with_precondition() throws IOException {
 		//	d = new Drivernstcac();
 		//	d.openV();
 			System.out.println("First case");
-			System.out.println("Get isntnace title " + driver.getTitle());
-			driver.findElement(By.partialLinkText("DFDF")).click();
+		//	System.out.println("Get isntnace title " + driver.getTitle());
+		//	driver.findElement(By.partialLinkText("DFDF")).click();
 //			driver = new  ChromeDriver();
 //			driver.get("https://www.calculator.net/");
 		}

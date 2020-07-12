@@ -1,1 +1,5 @@
+stepdefinitions/Drivernstcac.class
+stepdefinitions/HookTest.class
+wrapper/CommonClass.class
 stepdefinitions/TestcaseStepDefinition.class
+stepdefinitions/XtcStepdefinition.class
